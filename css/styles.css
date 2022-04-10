@@ -88,9 +88,9 @@ body {
 }
 
 .header-tel {
-    font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.15;
     letter-spacing: 0.02em;
     color: var(--second-header-color);
 }
@@ -178,7 +178,8 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
+    text-align: center;
     letter-spacing: 0.03em;
     color:var(--title-color)
 }
@@ -248,7 +249,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1/19;
+    line-height: 1.19;
     letter-spacing: 0.03em;    
     color: #2196F3;
 }
