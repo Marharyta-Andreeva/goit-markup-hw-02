@@ -44,6 +44,22 @@ body {
     color: var(--main-header-color);
 }
 
+.header-link-studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+    color: var(--accent-color);
+}
+
+.header-link-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+    color: var(--accent-color);
+}
+
 .header-link:hover,
 .header-link:focus {
     color: var(--accent-color);
@@ -199,7 +215,8 @@ body {
     cursor: pointer;
 }
 
-.portfolio-btn:hover {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     color: #ffffff;
     background-color: var(--accent-color);
 }
@@ -269,10 +286,10 @@ body {
 
 .footer-mail:hover,
 .footer-mail:focus {
-    color: var(--footer-accent-color)
+    color: var(--accent-color);
 }
 
 .footer-tel:hover,
 .footer-tel:focus {
-    color: var(--footer-accent-color);
+    color: var(--accent-color);
 }
